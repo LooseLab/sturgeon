@@ -11,7 +11,8 @@ import numpy as np
 try:
     from modbampy import ModBam
 except ImportError:
-    warnings.warn('Error loading modbampy, bam functionalities will not work')
+    pass
+    #warnings.warn('Error loading modbampy, bam functionalities will not work')
 
 from sturgeon.utils import read_probes_file
 

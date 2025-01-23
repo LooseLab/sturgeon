@@ -69,7 +69,7 @@ def load_bed_file(bed_file: str):
         bed_file, 
         header = 0, 
         index_col = None, 
-        delim_whitespace=True
+        sep='\s+'
     )
     return bed_df
 
